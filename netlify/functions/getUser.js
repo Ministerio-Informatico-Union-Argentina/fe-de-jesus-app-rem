@@ -21,7 +21,7 @@ const mockUser = {
     ],
 }
 
-exports.handler = async (event, context) => {
+const handler = async (event, context) => {
 
     return {
         statusCode: 200,
@@ -30,6 +30,7 @@ exports.handler = async (event, context) => {
 
 }
 
+export { handler }
 
 // const fetch = require("node-fetch")
 
