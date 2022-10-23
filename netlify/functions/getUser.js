@@ -1,4 +1,4 @@
-import mockUser from "../../mocks/mockUser"
+import mockUser from '../../mocks/mockUser'
 
 const handler = async (event, context) => {
 
@@ -11,7 +11,7 @@ const handler = async (event, context) => {
 
 export { handler }
 
-// const fetch = require("node-fetch")
+// const fetch = require('node-fetch')
 
 // const API_ENDPOINT = 'https://cat-fact.herokuapp.com/facts'
 
