@@ -1,6 +1,6 @@
 import mockLessons from '../../mocks/mockLessons'
 
-exports.handler = async (event, context) => {
+const handler = async (event, context) => {
 
     return {
         statusCode: 200,
@@ -8,3 +8,5 @@ exports.handler = async (event, context) => {
     }
 
 }
+
+export { handler }
